@@ -2,6 +2,6 @@
 int main() {
     char c[100],d[200];
     scanf("%s%s",(&c,&d));
-    printf("You enetered: %s and %s");
+    printf("You enetered: %s and %s",c,d);
     return 0;
 }

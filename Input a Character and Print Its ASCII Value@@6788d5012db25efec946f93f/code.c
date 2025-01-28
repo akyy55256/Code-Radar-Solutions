@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-char star=a;
-scanf("%c",&star);
-printf("ASCII Value: ",star);
+char c;
+scanf("%c",c);
+printf("ASCII Value: ",c);
 return 0;
 }

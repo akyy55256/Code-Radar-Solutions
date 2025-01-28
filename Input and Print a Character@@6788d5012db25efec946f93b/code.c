@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char star="@";
-    scanf("%c",&star);
-    printf("You entered: %c",star);
+    char s;
+    scanf("%c",&s);
+    printf("You entered: %c",s);
     result 0;
 }

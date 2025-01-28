@@ -3,10 +3,10 @@ int main() {
     int n;
     scanf("%d",&n);
     if(n%4==0){
-        print("Leap Year");
+        printf("Leap Year");
     }
     else{
-        print("Not a Leap Year");
+        printf("Not a Leap Year");
     }
     return 0;
 }

@@ -8,4 +8,5 @@ int main() {
     else{
         print("Odd");
     }
+    return 0;
 }

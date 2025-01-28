@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char name;
+    char name[60];
     scanf("%s",&name);
     printf("Name: %s\n",name);
     
@@ -8,7 +8,7 @@ int main() {
     scanf("%d",&age);
     printf("Age: %d\n",age);
 
-    char hobby;
+    char hobby[60];
     scanf("%s",&hobby);
     printf("Hobby: %s\n",hobby);
     return 0;

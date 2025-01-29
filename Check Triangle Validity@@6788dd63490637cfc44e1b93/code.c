@@ -3,16 +3,16 @@ int main() {
     float a,b,c;
     scanf("%f%f%f",&a,&b,&c);
     if(a+b>c){
-    printf("Valid");
+    printf("Valid\n");
     }
     else if(a+c>b){
-        printf("Valid");
+        printf("Valid\n");
     }
     else if(b+c>a){
-        printf("Valid");
+        printf("Valid\n");
     }
     else{
-        printf("Invalid");
+        printf("Invalid\n");
     }
     return 0;
 }

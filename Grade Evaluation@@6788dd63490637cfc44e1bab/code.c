@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char food;
-    scanf("%c", &food)
+    scanf("%c", &food);
     switch(food){
         case ('A'):
         printf("Excellent");

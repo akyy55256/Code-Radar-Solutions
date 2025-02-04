@@ -2,7 +2,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    switch(month){
+    switch(n){
         case 1:
         case 3:
         case 5:

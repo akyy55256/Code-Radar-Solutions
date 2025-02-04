@@ -3,9 +3,9 @@ int main() {
     int n,m;
     scanf("%d%d",&n,&m);
     for(i=1;i<=n;i++){
-        printf("*");
+        printf("*",n);
         for(j=1;j<=m;j++){
-            printf("*");
+            printf("*",m);
     }
 
     return 0;

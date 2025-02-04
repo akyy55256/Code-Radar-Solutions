@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
     char food;
-    char A,B,C,D,F;
-    scanf("%c&c%c%c%c%c"&food,&A,&B,&C,&D,&F);
+    scanf("%c", &food)
     switch(food){
         case ('A'):
         printf("Excellent");

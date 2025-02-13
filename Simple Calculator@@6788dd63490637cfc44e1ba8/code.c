@@ -1,29 +1,23 @@
 #include <stdio.h>
-int main() {
+int main() { 
     int a,b;
-    char sign;
-    scanf("%d %d %c",&a, &b, &sign);
-    switch(sign){
-        case('+'):
-        printf("%d",a+b);
-        break;
-        case('-'):
-        printf("%d",a-b);
-        break;
-        case('*'):
-        printf("%d",a*b);
-        break;
-        case('/'):
-        if(b==0){
-            printf("error");
-        }
-        else{
-            printf("%d",a/b);
-        }
-        break;
-        default:
+    char '+','-','*','/';
+    scanf("%d %d",&a,&b);
+    if('+'){
+        printf("sum %d",a+b);
+    }
+    else if('-'){
+        printf("sum %d",a-b);
+    }
+    else if('*'){
+        printf("sum %d",a*b);
+    }
+    else if('/'){
+        printf("sum %d",a/b);
+    }
+    else{
         printf("error");
-        break;
+    }
     }
     return 0;
 }

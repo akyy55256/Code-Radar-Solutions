@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
-    if(n>=97&&n<=122){
-        printf("Uppercase");
-    }
-    else if(n>=65&&n<=90){
+    char ch;
+    scanf("%c",&ch);
+    if(ch>='A'&&ch<='Z'){
+    printf("Uppercase");}
+    else if(ch>='a'&&ch<='z'){
         printf("Lowercase");
     }
     else{
